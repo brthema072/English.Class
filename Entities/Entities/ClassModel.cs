@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Entities.Entities
 {
-    public class MatterModel : BaseModel
+    public class ClassModel : BaseModel
     {
-        public string Utterance { get; set; }
+        public short Level { get; set; }
+        public List<LessonModel> Matters { get; set; }
     }
 }

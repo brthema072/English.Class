@@ -13,7 +13,7 @@ namespace Entities.Entities
         public string Email { get; set; }
         public double Score { get; set; }
         public short Level { get; set; }
-        public LessonsModel CurrentLessons { get; set; }
-        public List<LessonsModel> LessonsDone { get; set; }
+        public ClassModel CurrentClass { get; set; }
+        public List<ClassModel> ClassDone { get; set; }
     }
 }
