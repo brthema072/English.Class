@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Entities
 {
-    public class BaseModel
+    public class Base
     {
         public Guid Id { get; set; }
         public DateTime DateUpdate { get; set; }

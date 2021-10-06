@@ -7,9 +7,11 @@ using System.Threading.Tasks;
 
 namespace Entities.Entities
 {
-    public class ClassModel : BaseModel
+    public class Class
     {
+        public string Title { get; set; }
         public short Level { get; set; }
-        public List<LessonModel> Matters { get; set; }
+        public double Progress { get; set; }
+        public List<Lesson> Lessons { get; set; }
     }
 }
